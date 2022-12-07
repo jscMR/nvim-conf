@@ -4,10 +4,6 @@ vim.g.mapleader = ','
 
 keymap.set('n', 'x', '"_x')
 
-keymap.set('', '<up>', '<nop>')
-keymap.se('', '<down>', '<nop>')
-keymap.set('', '<left>', '<nop>')
-keymap.set('', '<right>', '<nop>')
 keymap.set('i', 'jk', '<ESC>')
 keymap.set('i', 'JK', '<ESC>')
 keymap.set('i', 'jK', '<ESC>')
